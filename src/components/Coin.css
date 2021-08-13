@@ -1,0 +1,78 @@
+.coin-container {
+  border-radius: 20px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1.8px solid black;
+}
+
+.coin-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 90px;
+  width: 70vw;
+  margin: 0 auto;
+}
+.container-1,
+.container-2,
+.container-3,
+.container-4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.coin {
+  display: flex;
+  align-items: center;
+  padding-right: 24px;
+  min-width: 20rem;
+}
+
+.coin h1 {
+  font-size: 16px;
+  width: 15.5rem;
+  letter-spacing: 2.5px;
+}
+
+.coin img {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+
+.coin-symbol {
+  text-transform: uppercase;
+}
+
+.coin-data {
+  display: flex;
+  text-align: left;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.coin-price,
+.coin-percent {
+  display: flex;
+  padding-left: 5rem;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 15rem;
+}
+.coin-percent {
+  padding-left: 1rem;
+}
+.coin-percent {
+  width: 15rem;
+}
+.coin-price span,
+.coin-percent span {
+  font-weight: 700;
+  color: black;
+}
+.coin-price p,
+.coin-percent p {
+  padding-left: 0.5rem;
+}
